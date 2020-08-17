@@ -1,5 +1,4 @@
 package myAwt;
-
 import java.awt.*;
 
 public class First extends Frame {
