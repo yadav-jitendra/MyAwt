@@ -2,6 +2,8 @@ package youtube;
 
 import java.awt.*;
 
+import static java.lang.Thread.sleep;
+
 public class Demo extends Frame {
     public Demo(String name) {
         super(name);
@@ -20,7 +22,6 @@ public class Demo extends Frame {
         int sa = 0;
         int ma = 3;
 
-        int i = 1;
         while (true) {
             int r1 = (int) (Math.random() * 255);
             int g1 = (int) (Math.random() * 255);
@@ -32,11 +33,10 @@ public class Demo extends Frame {
             sa += 12;
 
             try {
-                Thread.sleep(200);
+                sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            i++;
         }
 
     }
