@@ -20,7 +20,8 @@ public class Demo extends Frame {
         int sa = 0;
         int ma = 3;
 
-        for (int i = 1; ; i++) {
+        int i = 1;
+        while (true) {
             int r1 = (int) (Math.random() * 255);
             int g1 = (int) (Math.random() * 255);
             int b1 = (int) (Math.random() * 255);
@@ -30,11 +31,12 @@ public class Demo extends Frame {
             g.fillArc(x, y, w, h, sa, ma);
             sa += 12;
 
-           try {
+            try {
                 Thread.sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            i++;
         }
 
     }
