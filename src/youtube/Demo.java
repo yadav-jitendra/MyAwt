@@ -12,9 +12,10 @@ public class Demo extends Frame {
         setBackground(Color.black);
         setVisible(true);
     }
+
     public void paint(Graphics g){
         g.setColor(Color.white);
-        int x =150, y =150,w =150,h =150, sa =0, ma=3;
+        int x =150, y =150, w =150, h =150, sa =0, ma=3;
 
         for(int i=1;;i++){
             int r1 = (int) (Math.random()*255);
