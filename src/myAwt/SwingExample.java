@@ -2,7 +2,7 @@ package myAwt;
 
 import javax.swing.*;
 
-public class SwingEx {
+public class SwingExample {
     public static void main(String[] args) {
         JFrame fenster = new JFrame();
         fenster.setTitle("Ein Swing - Fenster ");
