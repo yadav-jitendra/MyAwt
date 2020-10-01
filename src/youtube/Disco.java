@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 
 import static java.lang.Thread.sleep;
 
-public class Demo2 extends Frame implements ActionListener {
-    public Demo2(String name) {
+public class Disco extends Frame implements ActionListener {
+    public Disco(String name) {
         super(name);
         setSize(800, 500);
         setLocation(100, 100);
@@ -42,7 +42,7 @@ public class Demo2 extends Frame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Demo2("Demo2");
+        new Disco("Demo2");
     }
 
 }
